@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="603dp"
+        android:layout_height="218dp"
+        app:srcCompat="@drawable/prm1"
+        tools:layout_editor_absoluteX="-162dp"
+        tools:layout_editor_absoluteY="-23dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="39dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/ico1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="563dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="168dp">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </ListView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
